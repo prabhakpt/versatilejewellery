@@ -1,48 +1,7 @@
 // Define a new module for our app
-angular.module('instantSearch1', [])
-.controller('ArrayCtrl',['$scope',function($scope){
-	//var items = this;
-	$scope.users = [
-	       		{
-	    			url: 'http://www.tutorialspoint.com/android/',
-	    			title: 'Android tutorials',
-	    			image: 'http://www.tutorialspoint.com/android/images/android-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/angularjs/',
-	    			title: 'AngularJs Tutorials ',
-	    			image: 'http://www.tutorialspoint.com/angularjs/images/angularjs-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/html5/',
-	    			title: 'HTML5 Tutorials',
-	    			image: 'http://www.tutorialspoint.com/html5/images/html5-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/css/',
-	    			title: 'CSS Tutorials',
-	    			image: 'http://www.tutorialspoint.com/css/images/css-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/java/',
-	    			title: 'Java Tutorials',
-	    			image: 'http://www.tutorialspoint.com/java/images/java-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/joomla/',
-	    			title: 'Joomla Tutorials',
-	    			image: 'http://www.tutorialspoint.com/joomla/images/joomla-mini-logo.jpg'
-	    		},
-	    		{
-	    			url: 'http://www.tutorialspoint.com/html/',
-	    			title: 'HTML Tutorials ',
-	    			image: 'http://www.tutorialspoint.com/html/images/html-mini-logo.jpg'
-	    		}
-	    	];
-	
-}]);
+var app = angular.module("instantSearch", []);
 
-/*// Create the instant search filter
+// Create the instant search filter
 
 app.filter('searchFor', function(){
 
@@ -121,4 +80,4 @@ function InstantSearchController($scope){
 	];
 
 
-}*/
+}
